@@ -1,0 +1,142 @@
+body{
+    font-family: sans-serif;
+    background: gray;
+    
+}
+
+.Container {
+    margin-right: 180px;
+    margin-left: 180px;
+} 
+ /* za nav barot */
+.Search-icon-size {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius:8px;
+    
+}
+
+.Button-size {
+padding:0px;
+border-radius:0px;
+border: hidden;
+border-left: 1px solid black;
+margin-left: -8px;
+
+}
+.search{
+    background-color: white;
+    border-radius: 3px;
+    
+}
+.all{
+    border: hidden;
+    position: relative;
+    font-family: sans-serif;
+}
+.logo {
+    height: 40px;
+    width: 80px;
+    padding: 0px;
+    border-radius: 4px; 
+}
+
+.Navbar {
+    margin: 0px;
+    background-color: rgb(72, 73, 72);
+}
+
+.prostor {
+    margin-right : 20px;
+}
+
+/* od tuka pocnuva css za card  */
+a{
+    color: gray;
+    text-decoration: none;
+}
+
+/* cel div */
+.single_item{
+    margin: 10px;
+    width: 330px;
+    height: 400px;
+    background: white;
+    overflow: hidden;
+    display:inline-block;
+    }
+
+.goren_div{
+    width: 330px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.dolen_div{
+    padding: 15px;
+}
+
+/* golemina na text za link */
+.link_holder{
+    font-size: 15px;
+    color: #a2a2a2;
+}
+
+
+.title_description a h2{
+    font-size: 25px;
+    margin: 0;
+}
+.title_description p{
+    font-size: 13px;
+    color: #888;
+    margin: 15px 0 0 0;
+}
+.comments{
+    width: 100%;
+    display: inline-block;
+}
+.comments-icon{
+    width: 22px;
+    height: 23px;
+    background: url();
+    display: inline-block;
+    background-size: 100%;
+    
+}
+.right{
+    float: right
+}
+.tags a{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+
+.title_description{
+    margin: 10px 0;
+} 
+
+
+/* Carousels pocnuva od tuka */
+.carousel-control-next {
+width: 15px;
+}
+
+.carousel-control-prev { 
+    width: 15px;
+}
+
+/* .carousel-item-next, .carousel-item-prev, */ .carousel-item.active {
+    margin-right: 15px;
+margin-left: 15px;
+}
+.topFav{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+
